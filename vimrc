@@ -32,13 +32,13 @@ nnoremap <leader>ev $MYVIMRC<CR> " Edit .vimrc
 " Plugin settings
 call plug#begin('~/.vim/plugged')
 
-Plug 'arcticicestudio/nord-vim' " Nord color scheme
+Plug 'catppuccin/vim', { 'as': 'catppuccin' } " Catppuccin theme
 Plug 'vim-airline/vim-airline'  " Cool line
 
 call plug#end()
 
 " Apply Nord theme
-colorscheme nord
+colorscheme catppuccin_mocha
 
 " Additional settings
 set tabstop=4                 " Number of spaces for a tab
